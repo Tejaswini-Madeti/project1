@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0; 
+    /* so that no spaces around webpage */
+    font-family: sans-serif;
+}
+#important {
+    display: flex;
+    max-width: 800px; /* while moving screen,above 800px the content remain as it is.
+     it is not going to adjust according to screen.*/
+     margin: 0 auto;
+    /* if we want to see two div's side by side. put two div's inside another new div
+     and apply css flex property */
+     padding: 8px; /* so that it doesn't touch edge of screen when shorter.*/
+}
+#paragraph{
+    padding: 12px;
+    width:50%;
+   
+}
+#Team_image{
+    Width:50%;   
+}
+#work {
+    border-radius: 5px;
+    width:100%; 
+    /* page expand chesinapudu space vastundi. so entire div image occupy cheydaniki
+          image width 100 percent. image height remove chesanu*/
+}
+#photo {
+   width: 100%;
+
+}
+.location {
+    color: grey;
+    margin-bottom: 26px; /* margin or padding not applicable to span. so i changed in html to div */
+}
+#navbar {
+padding: 8px;
+ margin: 0;
+}
+#merchant{ 
+    max-width:800px;
+    margin: 0 auto;
+    padding: 0 18px; /*0 applies to Top and bottom and 8px to left and right */
+}
+h2 {
+    text-align:center;
+
+}
+ h3 {
+    margin-bottom: 4px;
+ }
+.apply {
+      float: right; /* it will pull element to right */
+}
+
+a {
+    text-decoration: none; /* removes underline to anchor tags */
+}
+#fotter {
+    background-color: ghostwhite;
+    padding: 12px;
+    margin-top: 32px;
+    text-align: center;
+}
+#fotter-links{
+    list-style :none; /*bullet points will vanish*/
+    /* display: flex; */
+    
+}
+#fotter-links li {
+    display: inline;
+    margin: 0 16px;
+      
+}
+.copyright{
+    color:grey;
+    
+}

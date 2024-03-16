@@ -1,0 +1,80 @@
+<!-- A file called index.html is going to be the root page of the website. when building wesite with html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- attribute are those written inside tag. and attribute value should be in double quotes("") -->
+
+<body>
+    <div id="navbar">
+        <img src="jovian.png" alt="jovian_logo" height="30px">
+
+    </div>
+    <img id="photo" src="logo.jpg" alt="It is an logo image" height="450 px">
+    <!-- inline style. directly applying css in html. see below -->
+    <h1 style="text-align: center; color :indigo"> About Jovian</h1>
+
+    <div id="important">
+        <div id="paragraph">
+            <p style="margin-top: 0;">At Jovian, we're on a mission to build
+                the world's most highly reputed technical
+                university, and we're building it completely
+                online. We offer several beginner friendly
+                courses that are taken by <b>300,000+</b> registered
+                users. </p>
+            <!-- margin top 0 coz paragraph start line, and side image on same line -->
+            <p> We also offer 2 industry-focussed bootcamps:</p>
+
+            <ol>
+                <li> <a href="https://jovian.com/learn/web-development-with-html-and-css" target="_blank">Jovian Full
+                        Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li> <a href="https://www.jovian.com/data-science-bootcamp" target="_blank">Jovian Data analyst
+                        Bootcamp</a>
+                </li>
+            </ol>
+        </div>
+        <div id="Team_image">
+            <img id="work" src="team.jpg" alt="Team image">
+        </div>
+
+    </div>
+    <h2>Job Opportunities</h2>
+    <div id="merchant">
+        <div>
+            <a href="mailto:n170230@gruktn.ac.in?subject=Frontend" class ="apply" target ="_blank">apply </a>
+            <h3 class ="job-role">Frontend developer</h3>
+            <div class="location"> Benguluru, hyderabad</div>
+        </div>
+        <div>
+            <a href="mailto:n170230@gruktn.ac.in?subject =Backtend"  class ="apply" target ="_blank">apply </a>
+            <h3 class ="job-role"> Backend developer</h3>
+            <div class="location"> Remote, India</div>
+        </div>
+        <div>
+            <a href="mailto:n170230@gruktn.ac.in?subject=Data-analyst"class ="apply" target ="_blank">apply </a>
+            <h3 class ="job-role"> Data analyst</h3>
+            <div class="location"> Mumbai, india</div>
+            <!-- class and id name can be anything -->
+        </div>
+    </div>
+
+    <div id ="fotter">
+        <ul id ="fotter-links">
+            <li> <a href="https://jovian.com/learn" target="_blank">Programs</a></li>
+            <li> <a href="https://jovian.com/learn" target="_blank">Courses </a></li>
+            <li> <a href="https://www.youtube.com/@jovianhq" target="_blank">Youtube</a>
+            </li>
+        </ul>
+        <span class ="copyright">© 2023, Jovian</span>
+    </div>
+</body>
+
+</html>
